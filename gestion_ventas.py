@@ -31,7 +31,7 @@ def fn_ProcesarListaVentas_fl(ventas_lst):
     
     while i < len(ventas_lst):
         total_fl += ventas_lst[i]
-
+        i+=1 #Se le suma 1 a i para que siga avanzando el bucle
     return total_fl
 
 def fn_EvaluarObjetivoDiario_bool(total_ventas_fl, objetivo_int=500):
